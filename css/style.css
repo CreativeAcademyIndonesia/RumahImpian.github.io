@@ -6,6 +6,13 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #f3fff4;
 }
+/* Nav Fixed on Scroll */
+
+.nav-color {
+        background-color: #005a36;
+}
+
+/* Nav Scroll */
 
 .navbar {
     z-index: 3;
@@ -21,6 +28,10 @@ nav .navbar-brand {
   font-weight: 700;
 }
 
+.nav-link:hover {
+    background-color: var(--pr-color);
+}
+
 .navbar .nav-link {
   font-size: 1rem;
   color: #fff !important;
@@ -30,7 +41,7 @@ nav .navbar-brand {
   width: 133px;
   height: 40px;
   background-color: transparent;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
