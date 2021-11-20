@@ -1,0 +1,42 @@
+@media only screen and (max-width :922px) {
+    .hero-tagline h1 {
+        color: red;
+    }
+}
+
+@media only screen and (max-width : 576px) {
+    .hero-tagline h1 {
+        color: blueviolet;
+    }
+
+    .image-hero {
+        height: 75%;
+    }
+}
+
+@media only screen and  (max-width : 320px) {
+    .hero-tagline h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .hero-tagline p {
+        font-size: .9rem;
+        line-height: 20px;
+    }
+
+    .image-hero {
+        height: 50%;
+    }
+}
+/* 
+@media only screen and (min-width : 320px) {
+    .hero-tagline h1 {
+        color: black;
+    }
+} */
+
+
+
+
+
