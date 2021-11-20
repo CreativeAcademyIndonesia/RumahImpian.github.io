@@ -1,5 +1,21 @@
 @media only screen and (max-width :922px) {
+    #cari p {
+        font-size: 18px;
+        width: 90%;
+    }
 
+    .input-cari .button-secondary {
+        width: 120px;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    #kontak h3 {
+        font-size: 30px;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width : 576px) {
@@ -18,21 +34,51 @@
     .sub-title {
         font-size: 16px;
     }
+
+    #cari h2 {
+        font-size: 42px;
+    }
+
+    .input-cari .button-secondary {
+        width: 50%;
+        height: 60px;
+    }
+
+    .input-cari .button-primary {
+        height: 60px;
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .card-contact {
+        padding: 45px 15px ;
+        height: auto;
+    }
+
 }
 
-@media only screen and  (max-width : 320px) {
+@media only screen and  (max-width : 300px) {
     .hero-tagline h1 {
-        font-size: 40px;
+        font-size: 32px;
         line-height: 42px;
     }
 
     .hero-tagline p {
-        font-size: .9rem;
+        font-size: .8rem;
         line-height: 20px;
     }
 
     .image-hero {
         height: 50%;
+    }
+
+    #cari h2 {
+        font-size: 30px;
+    }
+
+    #cari p {
+        font-size: 16px;
+        width: 100%;
     }
 }
 /* 

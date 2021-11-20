@@ -7,6 +7,10 @@ body {
   background-color: #f3fff4;
 }
 
+.navbar {
+    z-index: 3;
+}
+
 nav .navbar-brand {
   font-size: 20px;
   font-weight: 700;
@@ -224,7 +228,6 @@ h2 {
 }
 
 .input-cari .button-primary {
-    /* width: 150px; */
     height: 88px;
     background-color: var(--pr-color);
     color: #fff;
