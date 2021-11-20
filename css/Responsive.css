@@ -1,16 +1,22 @@
 @media only screen and (max-width :922px) {
-    .hero-tagline h1 {
-        color: red;
-    }
+
 }
 
 @media only screen and (max-width : 576px) {
     .hero-tagline h1 {
-        color: blueviolet;
+        line-height: 52px;
     }
 
     .image-hero {
         height: 75%;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .sub-title {
+        font-size: 16px;
     }
 }
 
